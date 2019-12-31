@@ -9,7 +9,7 @@ const app = express();
 
 app.use('/products', product);
 
-let port = 1234;
+let port = 8081;
 
 app.listen(port, () => {
     console.log('Server is up and running on port numner ' + port);
